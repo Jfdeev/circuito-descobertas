@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "63718372814",
+    "project_id": "circuitos-descobertas",
+    "storage_bucket": "circuitos-descobertas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63718372814:android:94b1414513081c9add679f",
+        "android_client_info": {
+          "package_name": "br.cesupa.circuitodescobertas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYeb7Esk5I8K-qwmsM-C8yrn5NH4u0DuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
