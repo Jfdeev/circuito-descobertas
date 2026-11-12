@@ -99,6 +99,9 @@ tela avisando que o Firebase ainda não foi configurado.
    destaques, abrir a missão e fazer o check-in lendo o QR. No painel,
    conferir o total. Publicar `missao_ativa = false` e mostrar a chamada
    sumindo no mesmo app.
+   **Atenção:** `missao_estandes` precisa ter IDs de estandes **ativos**,
+   copiados pelo link "ID (copiar)" do painel. Com a lista vazia ou errada, a
+   chamada não aparece e nenhum erro é mostrado.
 4. No **GA4**: Relatórios → Tempo real → cartão de eventos. Mostrar
    `missao_aberta` e `checkin_concluido`, abrir o check-in e mostrar
    `estande_id`.
