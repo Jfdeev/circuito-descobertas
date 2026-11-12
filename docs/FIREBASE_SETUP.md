@@ -91,6 +91,11 @@ Se preferir, publique o modelo pelo CLI: `npx firebase deploy --only remoteconfi
   escuta `onConfigUpdated`.
 - **Desligar a missão:** volte para `false` e publique de novo.
 
+> ⚠️ **A chamada só aparece se `missao_estandes` tiver o ID de pelo menos um
+> estande ativo.** Com a lista vazia, um ID digitado errado ou só estandes
+> inativos, o app fica igual e não mostra erro. Copie os IDs pelo link do
+> painel e confira que os estandes estão ativos. Faça um ensaio antes de gravar.
+
 ## 7. Rodar o painel web
 
 ```bash
@@ -111,6 +116,10 @@ exemplo**, ou **Novo estande**. O botão de QR abre o código; **Abrir para
 imprimir** abre a página do QR em outra aba, e lá é só usar Ctrl+P.
 
 ## 8. APK assinado
+
+> ⚠️ **Gere o APK só depois do passo 5** (`flutterfire configure`). Um APK
+> gerado antes disso usa a configuração provisória e abre apenas a tela
+> "Firebase ainda não configurado". Não distribua esse APK.
 
 1. Gere a chave de upload. O `keytool` vem com o Android Studio:
    ```bash
